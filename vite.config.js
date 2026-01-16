@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [tailwindcss(),react()],
   optimizeDeps: {
     include: ["gsap", "gsap/Draggable"],
-    exclude: []
+
   },
   resolve: {
     alias: {
