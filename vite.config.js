@@ -6,6 +6,10 @@ import {fileURLToPath} from 'url'
 
 export default defineConfig({
   plugins: [tailwindcss(),react()],
+  optimizeDeps: {
+    include: ["gsap", "gsap/Draggable"],
+
+  },
   resolve: {
     alias: {
       '#components': resolve(dirname(fileURLToPath(import.meta.url)), 'src/components'),
@@ -14,8 +18,5 @@ export default defineConfig({
       '#hoc': resolve(dirname(fileURLToPath(import.meta.url)), 'src/hoc'),
       '#windows': resolve(dirname(fileURLToPath(import.meta.url)), 'src/windows'),
     },
-  },
-  optimizeDeps: {
-    include: ["gsap", "gsap/Draggable"],
   }
 })
