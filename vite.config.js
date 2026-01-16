@@ -15,4 +15,7 @@ export default defineConfig({
       '#windows': resolve(dirname(fileURLToPath(import.meta.url)), 'src/windows'),
     },
   },
+  optimizeDeps: {
+    include: ["gsap", "gsap/Draggable"],
+  }
 })

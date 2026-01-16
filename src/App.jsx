@@ -1,7 +1,7 @@
 import { Navbar, Welcome, Dock, Home } from "#components/index.js";
 import { Contact, Finder, Image, Photos, Resume, Safari, Terminal, Text } from "#windows";
 import gsap from "gsap";
-import { Draggable } from "gsap/draggable";
+import { Draggable } from "gsap/Draggable";
 gsap.registerPlugin(Draggable);
 
 const App = () => {
