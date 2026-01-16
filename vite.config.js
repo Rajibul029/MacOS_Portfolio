@@ -9,7 +9,7 @@ export default defineConfig({
   optimizeDeps: {
     include: ["gsap", "gsap/Draggable"],
     exclude: []
-  }
+  },
   resolve: {
     alias: {
       '#components': resolve(dirname(fileURLToPath(import.meta.url)), 'src/components'),
