@@ -327,10 +327,64 @@ const WORK_LOCATION = {
         },
       ],
     },
-
-    // ▶ Project 3
+    
+    //----------------------------
+    //Project-3
     {
       id: 7,
+      name: "Builder-AI",
+      icon: "/images/folder.png",
+      kind: "folder",
+      position: "top-60 right-20",
+      windowPosition: "top-[42vh] left-18",
+      children: [
+        {
+          id: 1,
+          name: "Builder-AI.txt",
+          icon: "/images/txt.png",
+          kind: "file",
+          fileType: "txt",
+          position: "top-5 right-10",
+          description: [
+            "Builder AI is an AI-powered web application that enables users to generate project code and files simply by describing their ideas in natural language.",
+            "It allows users to enter prompts and receive AI-generated code for their projects, making the development process faster and easier.",
+            "The application uses AI integration to understand user requirements, generate relevant source code, and organize project files through a dedicated backend system.",
+            "Builder AI reduces manual coding effort, saves development time, and makes software development more accessible and efficient.",
+          ],
+        },
+        {
+          id: 2,
+          name: "Builder-AI.com",
+          icon: "/images/safari.png",
+          kind: "file",
+          fileType: "url",
+          href: "https://builder-ai-t6rl.onrender.com",
+          position: "top-20 left-20",
+        },
+        {
+          id: 4,
+          name: "Builder-AI.png",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          position: "top-52 left-80",
+          imageUrl: "/images/project-4.png",
+        },
+        {
+          id: 5,
+          name: "Design.fig",
+          icon: "/images/plain.png",
+          kind: "file",
+          fileType: "fig",
+          href: "https://www.figma.com/design/vWS1rVJNaqCe7eCSaTNHGO/Builder-AI---Product-UI-Design?node-id=0-1&p=f",
+          position: "top-60 left-5",
+        },
+      ],
+    },
+//----------------------------
+    // ▶ Project 4
+    {
+      id: 8,
       name: "Smart Study Materials Platform",
       icon: "/images/folder.png",
       kind: "folder",
