@@ -225,11 +225,11 @@ const WORK_LOCATION = {
     // ▶ Project 1
     {
       id: 5,
-      name: "Doctor Appointment Booking System",
+      name: "MediMeet",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-5", // icon position inside Finder
-      windowPosition: "top-[5vh] left-5", // optional: Finder window position
+      windowPosition: "top-[5vh] left-18", // optional: Finder window position
       children: [
         {
           id: 1,
@@ -385,7 +385,7 @@ const WORK_LOCATION = {
     // ▶ Project 4
     {
       id: 8,
-      name: "Smart Study Materials Platform",
+      name: "Smart Study",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-80",
